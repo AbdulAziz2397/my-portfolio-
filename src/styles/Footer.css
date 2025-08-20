@@ -43,3 +43,65 @@
 .footer-social>i.fa-linkedin{
     color: #FACC15;
 }
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+    .footer-sec {
+        padding: 56px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-sec {
+        padding: 48px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-sec {
+        padding: 40px 20px;
+    }
+    
+    .footer-text {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .footer-text>h3 {
+        font-size: 32px;
+    }
+    
+    .footer-social {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .footer-social>i {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-sec {
+        padding: 30px 15px;
+    }
+    
+    .footer-text>h3 {
+        font-size: 28px;
+    }
+    
+    .footer-text>p {
+        font-size: 14px;
+    }
+    
+    .footer-social {
+        gap: 12px;
+    }
+    
+    .footer-social>i {
+        font-size: 24px;
+    }
+}

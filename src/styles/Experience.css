@@ -56,3 +56,83 @@
     font-size: 16px;
     color: #6B7280;
 }
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+    .Experiences-sec {
+        padding: 96px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .Experiences-sec {
+        padding: 80px 20px;
+    }
+    
+    .Experience-cards {
+        gap: 20px;
+    }
+    
+    .Ex-card {
+        width: 300px;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Experiences-sec {
+        padding: 60px 20px;
+    }
+    
+    .Experience-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .Experience-text>h3 {
+        font-size: 32px;
+    }
+    
+    .Experience-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .Ex-card {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Experiences-sec {
+        padding: 40px 15px;
+    }
+    
+    .Experience-text>h3 {
+        font-size: 28px;
+    }
+    
+    .Experience-text>p {
+        font-size: 14px;
+    }
+    
+    .Ex-card {
+        padding: 20px;
+        gap: 24px;
+    }
+    
+    .Ex-card > span.date-span {
+        font-size: 18px;
+    }
+    
+    .Ex-card > h3 {
+        font-size: 22px;
+    }
+    
+    .Ex-card > p {
+        font-size: 14px;
+    }
+}
