@@ -1,0 +1,89 @@
+* {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#heroSection {
+    height: 619px;
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    padding: 96px 165px;
+}
+
+.hero-box {
+    width: 1092px;
+    height: 427px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    height: 271px;
+    align-items: flex-start;
+}
+
+.hero-greeting {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #EAB308;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.hero-name {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.hero-description {
+    font-size: 16px;
+    color: #6B7280;
+    line-height: 27px;
+}
+
+.hero-media-container {
+    width: 427px;
+    height: 427px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.hero-social {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 273px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-label {
+    font-size: 14px;
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.fa-brands {
+    color: black;
+    font-size: 18px;
+}

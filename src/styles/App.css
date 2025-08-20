@@ -1,0 +1,19 @@
+button:active {
+  transform: scale(0.95);
+}
+
+.contact-btn {
+    width: 123px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+    background-color: #FACC15;
+    margin-top: auto;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

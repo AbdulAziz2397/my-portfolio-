@@ -1,0 +1,57 @@
+* {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#aboutSection {
+    height: 619px;
+    background-color: #020617;
+    display: flex;
+    justify-content: center;
+    padding: 0 165px;
+}
+
+.about-container {
+    width: 1104px;
+    display: flex;
+    padding: 96px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-media {
+    width: 427px;
+    height: 427px;
+    background-color: #0000;
+    border: 10px solid #EAB308;
+    border-radius: 20px;
+}
+
+.about-media img {
+    width: 427px;
+    height: 427px;
+    margin: -36px 0px 2px 16px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.about-text {
+    width: 466px;
+    height: 271px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.about-text>h3 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.about-text>h3>span {
+    color: #FACC15;
+}
+
+.about-text>p {
+    font-size: 16px;
+    color: #6B7280;
+}

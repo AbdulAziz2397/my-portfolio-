@@ -1,0 +1,61 @@
+.services-sec {
+    background-color: #111827;
+    padding: 96px 165px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-text {
+    width: 461px;
+    margin-bottom: 56px;
+}
+
+.service-text>h3 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.service-text>h3>span {
+    color: #FACC15;
+}
+
+.service-text>p {
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.service-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    width: 350px;
+    background: #020617;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    border-radius: 10px;
+}
+
+.card > i.fas{
+    font-size: 40px;
+    color: #FACC15;
+}
+
+.card > h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #F3F4F6;
+}
+
+.card > p {
+    font-size: 16px;
+    color: #6B7280;
+}
+

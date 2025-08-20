@@ -1,0 +1,58 @@
+.Experiences-sec {
+    background-color: #111827;
+    padding: 96px 165px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Experience-text {
+    width: 730px;
+    margin-bottom: 80px;
+}
+
+.Experience-text>h3 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.Experience-text>h3>span {
+    color: #FACC15;
+}
+
+.Experience-text>p {
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.Experience-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.Ex-card{
+    width: 350px;
+    background: #020617;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 10px;
+}
+
+.Ex-card > span.date-span{
+    font-size: 20px;
+    color: #D1D5DB;
+}
+
+.Ex-card > h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #FACC15;
+}
+
+.Ex-card > p {
+    font-size: 16px;
+    color: #6B7280;
+}
